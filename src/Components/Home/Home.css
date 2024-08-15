@@ -1,0 +1,74 @@
+ 
+ .bg_img{
+    left: 0%;
+position: absolute;
+background-size: cover;
+background-repeat: no-repeat;
+width: 100%;
+height:100%;
+z-index: -1;
+object-fit: cover;
+
+ }
+ 
+ .body_div{
+    position: relative;
+    background-color:#0d0729;
+    height:100vh;
+    width: 100vw;
+    font-size: 500%;
+    text-align: center;
+    box-sizing: border-box;
+    z-index: -1;
+    object-fit: cover;
+} 
+.title_div{
+    font-weight: 800;
+    font-family:Arial, Helvetica, sans-serif;
+    font-style: italic;
+    position: relative;
+    padding-top: 3%;
+    color:#ffa909;
+    z-index: +1;
+}
+.landing_div{
+    padding: 3%;
+    border-radius: 60px;
+    margin-top: 90px;
+    left: 21%;
+    position:absolute;
+    background-color: rgba(194, 194, 194, 0.28);
+    font-size: 55%;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 59vw;
+    z-index: +1;
+    color: whitesmoke;
+}
+.quote{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 800;
+    color:#daf1ff;
+    font-style: oblique;
+}
+.blogbody_div{
+   z-index: +1; 
+}
+.latest_div{
+    background-color: #0a0717;
+    background-color: #ffffff;
+
+    height:100vh;
+    width: 100vw;
+}
+.latestblog{
+    color: #bc0008;
+    top: 50px;
+    left: 200px;
+    font-size: xx-large;
+    font-weight: 1000;
+    font-family:Arial, Helvetica, sans-serif;
+    font-style: italic;
+    position: relative;
+    padding-top: 3%;
+    z-index: +1;
+}

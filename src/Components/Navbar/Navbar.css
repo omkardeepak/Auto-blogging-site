@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.navbar{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(35, 35, 35);
+}
+.btn-outline-success{
+    text-align: center;
+    flex: 1;
+    padding: 5px;
+    margin:0 70px;
+    border: none;
+    border-radius: 20px;
+    background-color: aliceblue;
+    text-decoration: none;
+}

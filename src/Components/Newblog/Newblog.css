@@ -1,0 +1,58 @@
+.base_div{
+    background-color: slategray;
+    height: 100vh;
+    width: 100vw;
+}
+.heading{
+    color: #ffffff;
+    top: 30px;
+    left: 200px;
+    font-size: xx-large;
+    font-weight: 1000;
+    font-family:Arial, Helvetica, sans-serif;
+    font-style: italic;
+    position: relative;
+    padding-top: 3%;
+    z-index: +1;
+}
+.bloginput{
+    padding: 20px;
+    box-sizing: border-box;
+    line-height: 1.5;
+    border-radius: 30px;
+    position: relative;
+    width:50vw;
+    height: 250px;
+    top: 80px;
+    left: 200px;
+    display: block;
+     /* overflow: auto;
+    vertical-align: top;
+     white-space: normal; */
+    word-wrap: break-word;
+}
+.nameinput{
+    padding: 3px;
+    box-sizing: border-box;
+    line-height: 1.5;
+    border-radius: 10px;
+    position: relative;
+    width:20vw;
+    height: 35px;
+    top: 80px;
+    left: 200px;
+    display: block;
+}
+.submit{
+    padding: 3px;
+    box-sizing: border-box;
+    line-height: 1.5;
+    border-radius: 10px;
+    position: relative;
+    width:10vw;
+    height: 35px;
+    top: 100px;
+    left: 200px;
+    display: block;
+    background-color: rgb(77, 255, 0);
+}
